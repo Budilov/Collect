@@ -22,6 +22,7 @@ class MainWindow extends JFrame {
         setLayout(new BorderLayout());
         listModel = new DefaultListModel<>();
         list = new JList(listModel);
+
         sendButton = new JButton("Отправить");
         sendButton.addActionListener(new AbstractAction() {
             @Override
